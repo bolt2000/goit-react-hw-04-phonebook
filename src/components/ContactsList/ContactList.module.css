@@ -1,0 +1,51 @@
+.List {
+  margin-top: 20px;
+  list-style: none;
+  padding: 1%;
+}
+.ContactItem {
+  width: 450px;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 2px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.ContactItem:last-child {
+  margin-bottom: 0%;
+}
+.ContactItemText {
+  font-size: 15px;
+  line-height: 1, 2em;
+  margin-right: 15px;
+}
+.ContactItemSpan {
+  font-size: 15px;
+  line-height: 1, 2em;
+  margin-left: 15px;
+}
+
+.button {
+  cursor: pointer;
+  /* border-radius: 5px; */
+  padding: 12px 15px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  /* margin-top: 20px; */
+  margin-left: auto;
+  border-radius: 5px;
+}
+
+.button:hover,
+.button:focus {
+  color: white;
+  background-color: red;
+  border: 3px solid black;
+}
+
+.button span {
+  margin-right: 15px;
+}
